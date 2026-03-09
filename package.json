@@ -1,7 +1,11 @@
 {
     "name": "kangaroo-cpanel-mcp",
     "version": "1.0.0",
-    "description": "Template e guia para integrar Kangaroo Host com assistentes IA via MCP (Model Context Protocol)",
+    "description": "🦘 Setup automático do cPanel MCP para Kangaroo Host — rode npx e configure seu assistente IA em 30 segundos",
+    "type": "module",
+    "bin": {
+        "kangaroo-cpanel-mcp": "setup.mjs"
+    },
     "keywords": [
         "kangaroo-host",
         "cpanel",
@@ -9,16 +13,27 @@
         "model-context-protocol",
         "ai",
         "hosting",
-        "wpraiz"
+        "wpraiz",
+        "claude",
+        "cursor",
+        "gemini",
+        "setup",
+        "cli"
     ],
     "author": "WPRaiz <contato@wpraiz.com.br> (https://wpraiz.com.br)",
     "license": "MIT",
-    "homepage": "https://github.com/jibcl/kangaroo-cpanel-mcp",
+    "homepage": "https://github.com/wpraiz/kangaroo-cpanel-mcp",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jibcl/kangaroo-cpanel-mcp.git"
+        "url": "git+https://github.com/wpraiz/kangaroo-cpanel-mcp.git"
     },
-    "dependencies": {
-        "cpanel-mcp": "latest"
+    "files": [
+        "setup.mjs",
+        "banner.png",
+        "README.md",
+        "LICENSE"
+    ],
+    "engines": {
+        "node": ">=18.0.0"
     }
 }

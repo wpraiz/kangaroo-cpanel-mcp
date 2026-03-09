@@ -1,0 +1,16 @@
+{
+    "mcpServers": {
+        "kangaroo-cpanel": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "cpanel-mcp"
+            ],
+            "env": {
+                "CPANEL_HOSTNAME": "brN.kangaroo.srv.br",
+                "CPANEL_USERNAME": "seu-usuario-cpanel",
+                "CPANEL_API_TOKEN": "SEU_TOKEN_AQUI"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "kangaroo-cpanel-mcp",
+    "version": "1.0.0",
+    "description": "Template e guia para integrar Kangaroo Host com assistentes IA via MCP (Model Context Protocol)",
+    "keywords": [
+        "kangaroo-host",
+        "cpanel",
+        "mcp",
+        "model-context-protocol",
+        "ai",
+        "hosting",
+        "wpraiz"
+    ],
+    "author": "WPRaiz <contato@wpraiz.com.br> (https://wpraiz.com.br)",
+    "license": "MIT",
+    "homepage": "https://github.com/jibcl/kangaroo-cpanel-mcp",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jibcl/kangaroo-cpanel-mcp.git"
+    },
+    "dependencies": {
+        "cpanel-mcp": "latest"
+    }
+}
